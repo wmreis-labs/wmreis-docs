@@ -10,7 +10,7 @@ O caixa pessoal e o da empresa se misturam. Transferência entre contas própria
 
 ## Quem usa
 
-Quem opera o admin da plataforma, com duas vidas financeiras no mesmo tenant: a pessoal e a da empresa. O Hostto continua o produto de imóvel e não é esta tela.
+Quem opera o admin da plataforma, com o livro pessoal do Milton e os livros das empresas TESTTO e WMREIS, no mesmo tenant. O Hostto continua o produto de imóvel e não é esta tela.
 
 ## Resultado esperado
 
@@ -19,8 +19,8 @@ Um painel, por livro e consolidado, que mostra receita real, despesa real e o re
 ## Escopo
 
 1. Painel por livro e consolidado, com a série dos meses.
-2. Cadastro das contas, cada uma num livro. A conta PJ do Inter segue automática. Itaú, Santander e Nubank entram por arquivo.
-3. Extrato por arquivo: upload no admin, pasta do Google Drive por banco e label de extrato no Gmail. OFX primeiro, depois CSV. PDF de extrato vai para revisão.
+2. Cadastro das contas, cada uma num livro, em conta corrente ou cartão. As contas Inter da TESTTO e da WMREIS seguem pela coleta automática. Itaú, Santander, Nubank e os cartões entram por arquivo.
+3. Na fase 1 o arquivo chega por upload no admin. OFX e CSV viram lançamento. PDF de extrato vai para revisão. A pasta do Google Drive e a label do Gmail são a fase 2.
 4. Fila de revisão do que não fechou sozinho.
 5. Lançamento manual, com data de competência, para o que não veio de banco.
 6. Contas que chegam por e-mail, numa segunda label só de boleto e fatura. O que tiver valor e vencimento vira despesa prevista e concilia quando o extrato mostrar o pagamento.
@@ -36,7 +36,7 @@ Um painel, por livro e consolidado, que mostra receita real, despesa real e o re
 
 ## Critério de aceite
 
-Fase 1. Dá para ver receita real, despesa real e transferência, por livro e no consolidado. O Inter está no livro PJ. Itaú, Santander e Nubank entram por OFX ou CSV. O que não fecha vai para a revisão. O painel não mostra número inventado.
+Fase 1. Dá para ver receita real, despesa real e o que fica ao lado, por livro e no consolidado, incluindo cartão. A TESTTO e a WMREIS entram pela coleta do Inter. Os outros arquivos entram por upload. O histórico de Milton e WMREIS vem do SQLite já classificado. O que não fecha vai para a revisão. O painel não mostra número inventado.
 
 Fase 2. Drive e Gmail, por label, entregam extrato. Boleto e fatura viram despesa prevista e conciliam com o pagamento no extrato. O que não casar continua na lista de contas a vencer.
 
@@ -48,4 +48,4 @@ Receita real, despesa real, resultado, volume de transferência, aportes do per�
 
 ## Decisões e desenho
 
-As escolhas fechadas estão nos ADRs [domínio cashbook](../adr/2026-09-27-dominio-cashbook.md), [livros e naturezas](../adr/2026-09-27-livros-pf-pj.md) e [admin e ingestão](../adr/2026-09-27-admin-e-ingestao.md). O funcionamento está nos design docs [cashbook](https://wmreis-labs.github.io/airtestto-docs/mudancas/design/2026-09-27-caixa-cashbook/) e [admin](https://wmreis-labs.github.io/admin-docs/mudancas/design/2026-09-27-caixa-admin/).
+As escolhas fechadas estão nos ADRs [domínio cashbook](../adr/2026-09-27-dominio-cashbook.md), [fase 1 do caixa](../adr/2026-09-27-fase-1-caixa.md) e [admin e ingestão](../adr/2026-09-27-admin-e-ingestao.md). O recorte anterior de dois livros está em [Livros PF e PJ](../adr/2026-09-27-livros-pf-pj.md), substituído. O funcionamento está nos design docs [cashbook](https://wmreis-labs.github.io/airtestto-docs/mudancas/design/2026-09-27-caixa-cashbook/) e [admin](https://wmreis-labs.github.io/admin-docs/mudancas/design/2026-09-27-caixa-admin/).

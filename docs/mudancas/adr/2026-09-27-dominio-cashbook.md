@@ -1,6 +1,6 @@
 # ADR: domínio cashbook
 
-**Status:** aceita em 2026-09-27.
+**Status:** aceita em 2026-09-27. Livros, tipos e a porta do extrato na fase 1 estão em [Fase 1 do caixa](2026-09-27-fase-1-caixa.md).
 
 ## Contexto
 

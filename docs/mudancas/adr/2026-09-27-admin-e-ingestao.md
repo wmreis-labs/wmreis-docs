@@ -1,6 +1,6 @@
 # ADR: admin é a interface e o extrato entra por arquivo
 
-**Status:** aceita em 2026-09-27.
+**Status:** aceita em 2026-09-27. Cartão, as duas contas Inter e o upload como porta da fase 1 estão em [Fase 1 do caixa](2026-09-27-fase-1-caixa.md).
 
 ## Contexto
 

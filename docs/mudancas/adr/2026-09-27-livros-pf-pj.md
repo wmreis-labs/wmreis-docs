@@ -1,6 +1,6 @@
 # ADR: livros PF e PJ
 
-**Status:** aceita em 2026-09-27.
+**Status:** substituída em 2026-09-27 por [Fase 1 do caixa](2026-09-27-fase-1-caixa.md). O texto abaixo registra a escolha anterior.
 
 ## Contexto
 
