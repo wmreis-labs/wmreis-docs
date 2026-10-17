@@ -1,6 +1,6 @@
 # PRD: painel inicial
 
-**Status:** aberta
+**Status:** aceita
 **Data:** 2026-10-17
 **Produto:** Hostto
 
