@@ -73,6 +73,7 @@ nav:
           - Lembrete antes do painel: mudancas/adr/2026-10-17-lembrete-caixa.md
       - PRDs:
           - mudancas/prd/index.md
+          - Painel inicial: mudancas/prd/2026-10-17-painel-inicial.md
           - Dashboard bancário: mudancas/prd/2026-10-17-dashboard-bancario.md
           - Calendário de ocupação: mudancas/prd/2026-10-14-calendario-ocupacao.md
           - Caixa: mudancas/prd/2026-09-27-caixa-pessoal-profissional.md
