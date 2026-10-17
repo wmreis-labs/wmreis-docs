@@ -26,6 +26,8 @@ Um painel, por livro e consolidado, que mostra receita real, despesa real e o re
 6. Contas que chegam por e-mail, numa segunda label só de boleto e fatura. O que tiver valor e vencimento vira despesa prevista e concilia quando o extrato mostrar o pagamento.
 7. Plano para investir: meta de reserva, reserva atual, quanto falta, resultado do período, aportes já feitos e sobra investível. Sem corretora e sem sugestão de ativo.
 
+O primeiro corte de implementação é o lembrete, antes do painel e da pasta do Drive. O sino mostra atrasado, o que vence hoje e o que chegou por e-mail ainda sem confirmação. A tela Contas a vencer confirma rotina ou avulso, dá baixa na ocorrência ou encerra com motivo. A decisão está no ADR [lembrete antes do painel](../adr/2026-10-17-lembrete-caixa.md).
+
 ## Fora do escopo
 
 - Open Finance e API de Itaú, Santander ou Nubank.
@@ -48,4 +50,4 @@ Receita real, despesa real, resultado, volume de transferência, aportes do per�
 
 ## Decisões e desenho
 
-As escolhas fechadas estão nos ADRs [domínio cashbook](../adr/2026-09-27-dominio-cashbook.md), [fase 1 do caixa](../adr/2026-09-27-fase-1-caixa.md) e [admin e ingestão](../adr/2026-09-27-admin-e-ingestao.md). O recorte anterior de dois livros está em [Livros PF e PJ](../adr/2026-09-27-livros-pf-pj.md), substituído. O funcionamento está nos design docs [cashbook](https://wmreis-labs.github.io/airtestto-docs/mudancas/design/2026-09-27-caixa-cashbook/) e [admin](https://wmreis-labs.github.io/admin-docs/mudancas/design/2026-09-27-caixa-admin/).
+As escolhas fechadas estão nos ADRs [domínio cashbook](../adr/2026-09-27-dominio-cashbook.md), [fase 1 do caixa](../adr/2026-09-27-fase-1-caixa.md), [lembrete antes do painel](../adr/2026-10-17-lembrete-caixa.md) e [admin e ingestão](../adr/2026-09-27-admin-e-ingestao.md). O recorte anterior de dois livros está em [Livros PF e PJ](../adr/2026-09-27-livros-pf-pj.md), substituído. O funcionamento está nos design docs [cashbook](https://wmreis-labs.github.io/airtestto-docs/mudancas/design/2026-09-27-caixa-cashbook/) e [admin](https://wmreis-labs.github.io/admin-docs/mudancas/design/2026-09-27-caixa-admin/).
