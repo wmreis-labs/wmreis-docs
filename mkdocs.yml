@@ -70,6 +70,7 @@ nav:
           - Livros PF e PJ: mudancas/adr/2026-09-27-livros-pf-pj.md
           - Admin e ingestão: mudancas/adr/2026-09-27-admin-e-ingestao.md
           - Fase 1 do caixa: mudancas/adr/2026-09-27-fase-1-caixa.md
+          - Lembrete antes do painel: mudancas/adr/2026-10-17-lembrete-caixa.md
       - PRDs:
           - mudancas/prd/index.md
           - Dashboard bancário: mudancas/prd/2026-10-17-dashboard-bancario.md
