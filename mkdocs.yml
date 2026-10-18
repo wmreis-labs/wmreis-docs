@@ -71,6 +71,7 @@ nav:
           - Admin e ingestão: mudancas/adr/2026-09-27-admin-e-ingestao.md
           - Fase 1 do caixa: mudancas/adr/2026-09-27-fase-1-caixa.md
           - Lembrete antes do painel: mudancas/adr/2026-10-17-lembrete-caixa.md
+          - Conta do bank no livro: mudancas/adr/2026-10-18-conta-bank-livro.md
       - PRDs:
           - mudancas/prd/index.md
           - Painel inicial: mudancas/prd/2026-10-17-painel-inicial.md

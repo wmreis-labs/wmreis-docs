@@ -19,7 +19,7 @@ Um painel, por livro e consolidado, que mostra receita real, despesa real e o re
 ## Escopo
 
 1. Painel por livro e consolidado, com a série dos meses.
-2. Cadastro das contas, cada uma num livro, em conta corrente ou cartão. As contas Inter da TESTTO e da WMREIS seguem pela coleta automática. Itaú, Santander, Nubank e os cartões entram por arquivo.
+2. Cadastro das contas, cada uma num livro, em conta corrente ou cartão. Agência e número ficam na conta do `bank`. O `cashbook` guarda o livro. As contas Inter da TESTTO e da WMREIS seguem pela coleta automática. Itaú, Santander, Nubank e os cartões entram por arquivo. A decisão está no ADR [conta do bank no livro](../adr/2026-10-18-conta-bank-livro.md).
 3. Na fase 1 o arquivo chega por upload no admin. OFX e CSV viram lançamento. PDF de extrato vai para revisão. A pasta do Google Drive e a label do Gmail são a fase 2.
 4. Fila de revisão do que não fechou sozinho.
 5. Lançamento manual, com data de competência, para o que não veio de banco.
@@ -50,4 +50,4 @@ Receita real, despesa real, resultado, volume de transferência, aportes do per�
 
 ## Decisões e desenho
 
-As escolhas fechadas estão nos ADRs [domínio cashbook](../adr/2026-09-27-dominio-cashbook.md), [fase 1 do caixa](../adr/2026-09-27-fase-1-caixa.md), [lembrete antes do painel](../adr/2026-10-17-lembrete-caixa.md) e [admin e ingestão](../adr/2026-09-27-admin-e-ingestao.md). O recorte anterior de dois livros está em [Livros PF e PJ](../adr/2026-09-27-livros-pf-pj.md), substituído. O funcionamento está nos design docs [cashbook](https://wmreis-labs.github.io/airtestto-docs/mudancas/design/2026-09-27-caixa-cashbook/) e [admin](https://wmreis-labs.github.io/admin-docs/mudancas/design/2026-09-27-caixa-admin/).
+As escolhas fechadas estão nos ADRs [domínio cashbook](../adr/2026-09-27-dominio-cashbook.md), [fase 1 do caixa](../adr/2026-09-27-fase-1-caixa.md), [lembrete antes do painel](../adr/2026-10-17-lembrete-caixa.md), [conta do bank no livro](../adr/2026-10-18-conta-bank-livro.md) e [admin e ingestão](../adr/2026-09-27-admin-e-ingestao.md). O recorte anterior de dois livros está em [Livros PF e PJ](../adr/2026-09-27-livros-pf-pj.md), substituído. O funcionamento está nos design docs [cashbook](https://wmreis-labs.github.io/airtestto-docs/mudancas/design/2026-09-27-caixa-cashbook/) e [admin](https://wmreis-labs.github.io/admin-docs/mudancas/design/2026-09-27-caixa-admin/).
