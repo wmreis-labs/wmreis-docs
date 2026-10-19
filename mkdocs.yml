@@ -63,7 +63,9 @@ nav:
   - Início: index.md
   - Mudanças:
       - mudancas/index.md
-      - RFCs: mudancas/rfc/index.md
+      - RFCs:
+          - mudancas/rfc/index.md
+          - Menu do admin: mudancas/rfc/2026-10-18-menu-do-admin.md
       - ADRs:
           - mudancas/adr/index.md
           - Domínio cashbook: mudancas/adr/2026-09-27-dominio-cashbook.md
@@ -74,6 +76,7 @@ nav:
           - Conta do bank no livro: mudancas/adr/2026-10-18-conta-bank-livro.md
       - PRDs:
           - mudancas/prd/index.md
+          - Console do admin: mudancas/prd/2026-10-18-console-do-admin.md
           - Painel inicial: mudancas/prd/2026-10-17-painel-inicial.md
           - Dashboard bancário: mudancas/prd/2026-10-17-dashboard-bancario.md
           - Calendário de ocupação: mudancas/prd/2026-10-14-calendario-ocupacao.md
