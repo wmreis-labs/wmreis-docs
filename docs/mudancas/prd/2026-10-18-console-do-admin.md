@@ -1,6 +1,6 @@
 # PRD: console do admin
 
-**Status:** em revisão
+**Status:** aceita
 **Data:** 2026-10-18
 **Produto:** Admin
 

@@ -1,6 +1,6 @@
 # RFC: menu e layout do admin
 
-**Status:** em revisão
+**Status:** aceita em 2026-10-19
 **Data:** 2026-10-18
 **PRD:** [console do admin](../prd/2026-10-18-console-do-admin.md)
 
