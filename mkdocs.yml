@@ -76,6 +76,7 @@ nav:
           - Lembrete antes do painel: mudancas/adr/2026-10-17-lembrete-caixa.md
           - Conta do bank no livro: mudancas/adr/2026-10-18-conta-bank-livro.md
           - Autenticação dos fronts: mudancas/adr/2026-11-18-autenticacao-dos-fronts.md
+          - Cobrança de reserva PagBank: mudancas/adr/2026-11-19-cobranca-reserva-pagbank.md
       - PRDs:
           - mudancas/prd/index.md
           - Console do admin: mudancas/prd/2026-10-18-console-do-admin.md
