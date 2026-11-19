@@ -65,6 +65,7 @@ nav:
       - mudancas/index.md
       - RFCs:
           - mudancas/rfc/index.md
+          - Papéis no Hostto e no Zé Salgados: mudancas/rfc/2026-11-19-papeis-hostto-zesalgados.md
           - Menu do admin: mudancas/rfc/2026-10-18-menu-do-admin.md
       - ADRs:
           - mudancas/adr/index.md
