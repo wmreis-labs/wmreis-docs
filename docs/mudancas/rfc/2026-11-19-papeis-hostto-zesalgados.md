@@ -1,6 +1,6 @@
 # RFC: o que cada papel faz no Hostto e no Zé Salgados
 
-**Status:** em revisão
+**Status:** aceita em 2026-11-19
 **Data:** 2026-11-19
 **ADR:** [autenticação dos fronts](../adr/2026-11-18-autenticacao-dos-fronts.md)
 
@@ -24,9 +24,9 @@ O admin e o console ATO já filtram o menu pelo grupo, e o ATO também recusa na
 | --- | --- | --- | --- | --- |
 | Dashboard e relatórios | ver | ver | ver | ver |
 | Imóveis, pessoas, calendário | alterar | alterar | ver | ver |
-| Contratos | alterar | alterar | ver | ver |
+| Contratos | alterar | alterar | alterar | ver |
 | Flipping | alterar | alterar | ver | ver |
-| Financeiro, contas e bank | alterar | ver | alterar | ver |
+| Financeiro, contas e bank | alterar | — | alterar | ver |
 | Assistente | usar | usar | usar | usar |
 | Configurações (usuários da empresa) | alterar | — | — | — |
 
@@ -34,18 +34,19 @@ O admin e o console ATO já filtram o menu pelo grupo, e o ATO também recusa na
 
 ### Zé Salgados
 
-| Área | GestorCozinha | Pdv | Producao | Estoque |
-| --- | --- | --- | --- | --- |
-| Relatórios | ver | — | — | — |
-| PDV e checkout | usar | usar | — | — |
-| Pedidos (lista e detalhe) | alterar | alterar | ver | ver |
-| Operação da cozinha (etapas do pedido) | alterar | ver | alterar | ver |
-| Clientes | alterar | alterar | — | — |
-| Produtos e categorias | alterar | ver | ver | alterar |
-| Entregas (planejamento e rota) | alterar | ver | — | — |
-| Pedido público pelo link | não depende de grupo | | | |
+| Área | GestorCozinha | Pdv | Producao | Estoque | Entregador |
+| --- | --- | --- | --- | --- | --- |
+| Relatórios | ver | ver (só o dia) | — | — | — |
+| PDV e checkout | usar | usar | — | — | — |
+| Pedidos (lista e detalhe) | alterar | alterar | ver | ver | — |
+| Operação da cozinha (etapas do pedido) | alterar | ver | alterar | ver | — |
+| Clientes | alterar | alterar | — | — | — |
+| Produtos e categorias | alterar | ver | ver | alterar | — |
+| Entregas: planejamento | alterar | ver | — | — | — |
+| Entregas: rota do dia | ver | ver | — | — | ver |
+| Pedido público pelo link | não depende de grupo | | | | |
 
-GestorCozinha é o admin da empresa no Zé Salgados, como já é para convite e aprovação.
+GestorCozinha é o admin da empresa no Zé Salgados, como já é para convite e aprovação. Entregador é um grupo novo no pool do Zé Salgados: só a rota do dia.
 
 ### Onde a regra vale
 
@@ -59,10 +60,10 @@ GestorCozinha é o admin da empresa no Zé Salgados, como já é para convite e 
 - **Só filtrar o menu.** Não protege nada, porque a API continuaria aceitando a chamada. Rejeitada.
 - **Um grupo por tela.** Dá controle fino, mas multiplica grupos no Cognito sem pedido de negócio. Fica para quando aparecer o caso.
 
-## Perguntas abertas
+## Respostas (2026-11-19)
 
-1. Financeiro do Hostto pode alterar contratos (valor, vencimento) ou só ver?
-2. Operacional do Hostto vê o financeiro ou não vê nada dele?
-3. No Zé Salgados, quem faz as entregas precisa de um grupo próprio (Entregador) só com a rota do dia?
-4. Pdv vê os relatórios do dia ou só o PDV?
-5. Os usuários atuais sem grupo no Hostto de produção ficam sem acesso quando a regra subir. Quem entra em cada grupo antes disso?
+1. Financeiro do Hostto altera contratos (valor, vencimento).
+2. Operacional do Hostto não vê nada do financeiro.
+3. Quem entrega ganha o grupo Entregador no Zé Salgados, só com a rota do dia.
+4. Pdv vê os relatórios do dia.
+5. Todos os usuários atuais do Hostto de produção entram no grupo Admin antes de a regra subir.
