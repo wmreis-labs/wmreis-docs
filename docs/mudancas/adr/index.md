@@ -4,6 +4,7 @@ Decisão que o backend e pelo menos um front precisam obedecer juntos.
 
 | Data | Decisão | Status |
 | --- | --- | --- |
+| 2026-11-19 | [Cobrança de reserva por link do PagBank](2026-11-19-cobranca-reserva-pagbank.md) | Aceita |
 | 2026-11-18 | [Autenticação e autorização dos fronts](2026-11-18-autenticacao-dos-fronts.md) | Aberta |
 | 2026-09-27 | [Domínio cashbook](2026-09-27-dominio-cashbook.md) | Aceita |
 | 2026-09-27 | [Livros PF e PJ](2026-09-27-livros-pf-pj.md) | Substituída |
