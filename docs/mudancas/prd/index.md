@@ -4,6 +4,7 @@ Problema de produto que pode atingir o backend e uma ou mais interfaces.
 
 | Data | PRD | Status |
 | --- | --- | --- |
+| 2026-11-20 | [Emitto, emissor fiscal](2026-11-20-emitto-emissor-fiscal.md) | Aberta |
 | 2026-10-18 | [Console do admin](2026-10-18-console-do-admin.md) | Aceita |
 | 2026-10-17 | [Painel inicial](2026-10-17-painel-inicial.md) | Aceita |
 | 2026-10-17 | [Dashboard bancário](2026-10-17-dashboard-bancario.md) | Aceita |
