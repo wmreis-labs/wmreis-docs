@@ -33,7 +33,7 @@ A emissão passa por uma porta única de provedor. Um emissor de mercado pode fi
 
 O desenho do serviço vai para o [airtestto-docs](https://wmreis-labs.github.io/airtestto-docs/mudancas/), com o contrato da API, os eventos e os estados do documento. O console, a identidade visual e a documentação pública da API ganham um site próprio do Emitto.
 
-A ordem de entrega começa pelo caso mais simples e de menor risco: NFS-e no padrão nacional, com a nota de serviço da própria WMReis como piloto, conferida com a emitida pela contabilidade. NFC-e do Zé vem depois, com contingência desde o primeiro dia. NF-e aproveita o mesmo layout da NFC-e. CT-e só entra com um caso real.
+A primeira entrega é a NF-e do Zé Salgados em produção: o núcleo nasce com o layout 4.00 do modelo 55, a conexão com a SEFAZ da UF do Zé, o DANFE A4 e a tributação dos produtos do Zé. A NFC-e vem em seguida, aproveitando o mesmo layout, com contingência desde o primeiro dia. A NFS-e no padrão nacional vem depois, com a nota de serviço da própria WMReis como piloto, conferida com a emitida pela contabilidade, e então a Miralis e o ATO. CT-e só entra com um caso real.
 
 A WMReis passa a responder pela manutenção fiscal: acompanhar notas técnicas, testar em homologação e publicar antes da vigência. Rejeição em produção é incidente do Emitto, não do sistema que vendeu.
 

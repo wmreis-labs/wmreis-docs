@@ -50,6 +50,9 @@ Quando a legislação muda, o Emitto sabe antes de a mudança valer: o que mudou
 
 ## Critério de aceite
 
+A primeira entrega é a NF-e do Zé Salgados. Os critérios abaixo valem para o produto inteiro, na ordem em que os documentos entram.
+
+- Um pedido pago do Zé com CPF ou CNPJ do cliente gera NF-e autorizada, com o DANFE disponível no pedido, e a contabilidade confere a nota.
 - A nota de serviço mensal da WMReis sai pelo Emitto e confere com a emitida pela contabilidade.
 - Uma venda paga no PDV do Zé gera uma única NFC-e autorizada e impressa; com a SEFAZ indisponível, a venda continua e a nota é transmitida depois.
 - Um pedido com destinatário pessoa jurídica gera NF-e.
