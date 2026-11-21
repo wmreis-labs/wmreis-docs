@@ -66,13 +66,15 @@ O extrato da conta do Inter já entra no Hostto a cada hora, e o Hostto já tem 
 - Regras da reforma tributária além da troca de alíquotas por vigência.
 - Emitir a guia na Receita.
 
-## Perguntas à contabilidade
+## Regras confirmadas
 
-Estas respostas fecham o desenho antes do código:
+As três perguntas à contabilidade foram respondidas e conferidas no extrato da Testto:
 
-- A receita do aluguel entra pela data do crédito (caixa) ou pelo mês do aluguel (competência)?
-- Na locação por temporada, a base é o repasse líquido da plataforma ou o valor bruto da reserva?
-- IRPJ e CSLL saem em cota única ou em três cotas?
+- A receita do aluguel entra pelo mês do aluguel (competência).
+- Na locação por temporada, a base é o repasse líquido da plataforma.
+- IRPJ e CSLL saem em cota única por trimestre do calendário.
+
+O detalhe está no [ADR](../adr/2026-11-21-apuracao-impostos-imoveis.md).
 
 ## Critério de aceite
 
@@ -88,6 +90,6 @@ A pergunta que a tela responde é quanto cada sócio deve das guias deste mês e
 
 ## Decisões e desenho
 
-- ADR: a escrever ([wmreis-docs#16](https://github.com/wmreis-labs/wmreis-docs/issues/16)). Registra que a receita vem do razão de imóveis alimentado pelo extrato, o domínio novo de apuração e a vigência das alíquotas.
+- ADR: [Apuração dos impostos dos imóveis por sócio](../adr/2026-11-21-apuracao-impostos-imoveis.md).
 - Design do serviço: a escrever.
 - Design da tela: a escrever.

@@ -4,6 +4,7 @@ Decisão que o backend e pelo menos um front precisam obedecer juntos.
 
 | Data | Decisão | Status |
 | --- | --- | --- |
+| 2026-11-21 | [Apuração dos impostos dos imóveis por sócio](2026-11-21-apuracao-impostos-imoveis.md) | Aberta |
 | 2026-11-21 | [Testto Pay, pagamentos como domínio central](2026-11-21-testto-pay-pagamentos.md) | Aceita |
 | 2026-11-20 | [Emissor fiscal próprio](2026-11-20-emissor-fiscal-proprio.md) | Aberta |
 | 2026-11-19 | [Cobrança de reserva por link do PagBank](2026-11-19-cobranca-reserva-pagbank.md) | Substituída |
