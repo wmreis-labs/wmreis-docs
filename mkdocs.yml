@@ -81,6 +81,7 @@ nav:
           - Emissor fiscal próprio: mudancas/adr/2026-11-20-emissor-fiscal-proprio.md
       - PRDs:
           - mudancas/prd/index.md
+          - Impostos dos imóveis por sócio: mudancas/prd/2026-11-21-impostos-imoveis-socios.md
           - Testto Pay: mudancas/prd/2026-11-21-testto-pay.md
           - Emitto, emissor fiscal: mudancas/prd/2026-11-20-emitto-emissor-fiscal.md
           - Console do admin: mudancas/prd/2026-10-18-console-do-admin.md
