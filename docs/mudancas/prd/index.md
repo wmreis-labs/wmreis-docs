@@ -4,6 +4,7 @@ Problema de produto que pode atingir o backend e uma ou mais interfaces.
 
 | Data | PRD | Status |
 | --- | --- | --- |
+| 2026-11-21 | [Impostos dos imóveis por sócio](2026-11-21-impostos-imoveis-socios.md) | Aberta |
 | 2026-11-21 | [Testto Pay, cobrança e conciliação](2026-11-21-testto-pay.md) | Aberta |
 | 2026-11-20 | [Emitto, emissor fiscal](2026-11-20-emitto-emissor-fiscal.md) | Aberta |
 | 2026-10-18 | [Console do admin](2026-10-18-console-do-admin.md) | Aceita |
