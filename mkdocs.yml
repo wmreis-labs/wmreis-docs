@@ -77,6 +77,7 @@ nav:
           - Conta do bank no livro: mudancas/adr/2026-10-18-conta-bank-livro.md
           - Autenticação dos fronts: mudancas/adr/2026-11-18-autenticacao-dos-fronts.md
           - Cobrança de reserva PagBank: mudancas/adr/2026-11-19-cobranca-reserva-pagbank.md
+          - Testto Pay: mudancas/adr/2026-11-21-testto-pay-pagamentos.md
           - Emissor fiscal próprio: mudancas/adr/2026-11-20-emissor-fiscal-proprio.md
       - PRDs:
           - mudancas/prd/index.md

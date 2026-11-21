@@ -1,6 +1,6 @@
 # ADR: cobrança de reserva por link do PagBank
 
-**Status:** aceita em 2026-11-19.
+**Status:** substituída em 2026-11-21 por [Testto Pay, pagamentos como domínio central](2026-11-21-testto-pay-pagamentos.md).
 **Complementa:** [Conta do bank no livro](2026-10-18-conta-bank-livro.md). O `bank` continua sendo a identidade da conta e o lugar do extrato.
 
 ## Contexto
