@@ -4,6 +4,7 @@ Decisão que o backend e pelo menos um front precisam obedecer juntos.
 
 | Data | Decisão | Status |
 | --- | --- | --- |
+| 2026-11-25 | [Chave de serviço emitida pelo admin](2026-11-25-chave-de-servico.md) | Aceita |
 | 2026-11-21 | [Apuração dos impostos dos imóveis por sócio](2026-11-21-apuracao-impostos-imoveis.md) | Aberta |
 | 2026-11-21 | [Testto Pay, pagamentos como domínio central](2026-11-21-testto-pay-pagamentos.md) | Aceita |
 | 2026-11-20 | [Emissor fiscal próprio](2026-11-20-emissor-fiscal-proprio.md) | Aberta |
